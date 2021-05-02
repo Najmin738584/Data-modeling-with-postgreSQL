@@ -35,7 +35,6 @@ def process_song_file(cur: cursor, filepath: str) -> None:
     # insert artist record
     artist_columns = ['artist_id', 'artist_name', 'artist_location', 'artist_latitude', 'artist_longitude']
     artist_data = df[artist_columns].values[0].tolist()
-
     cur.execute(artist_table_insert, artist_data)
 
 
