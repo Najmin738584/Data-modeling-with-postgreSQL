@@ -52,7 +52,7 @@ CREATE DATABASE sparkifydb OWNER student;
 ```
 ### Program execution
 Execute the script to generate the database and its tables by executing '%run create_tables.py'.
-Load the data and insert it to the database by executing '%run etl.py'.
+Load the data and insert it to the database by executing '%run etl.py' in Jupyter Nootbook.
 
 
 
